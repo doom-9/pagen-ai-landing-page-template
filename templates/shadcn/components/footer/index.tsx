@@ -2,7 +2,6 @@ import { Facebook, Github, Instagram, Twitter } from "lucide-react";
 import { Footer, Item, Nav } from "@/types/landing";
 
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 
 export default function ({ footer }: { footer: Footer }) {
   if (footer.disabled) {
