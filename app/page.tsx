@@ -9,6 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: `${process.env.NEXT_PUBLIC_WEB_URL}/`,
     },
+    title: "一键职达-帮你点亮求职之路"
   };
 }
 
