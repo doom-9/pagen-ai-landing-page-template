@@ -5,49 +5,45 @@ export const page: Page = {
   theme: "light",
   header: {
     brand: {
-      title: "Pagen",
+      title: "一键职达",
       avatar: {
         src: "/imgs/logo.png",
-        title: "Pagen",
+        title: "一键职达",
       },
       url: "/",
     },
     nav: {
       items: [
         {
-          title: "Pricing",
-          url: "https://pagen.so/pricing",
-          target: "_blank",
+          title: "功能介绍",
+          url: "#features",
         },
         {
-          title: "Generators",
-          url: "https://pagen.so/landing-page-generator",
-          target: "_blank",
+          title: "用户评价",
+          url: "#testimonials",
         },
         {
-          title: "Showcases",
-          url: "https://pagen.so/showcases",
-          target: "_blank",
+          title: "常见问题",
+          url: "#faq",
         },
         {
-          title: "Templates",
-          url: "https://pagen.so/templates",
-          target: "_blank",
+          title: "联系我们",
+          url: "#contact",
         },
       ],
     },
     buttons: [
       {
-        title: "Sign In",
-        url: "https://pagen.so/api/auth/signin?callbackUrl=%2Flanding-page-generator",
+        title: "立即体验",
+        url: "https://yijianzhi.com/start",
         target: "_blank",
       },
     ],
   },
   hero: {
-    title: "Create Landing Page with AI Power",
+    title: "帮你点亮求职之路",
     description:
-      "Design and launch high-converting landing pages with ease using Pagen AI. Ship Fast with your ideas.",
+      "陪你走过求职时光，助你迈向美好未来。使用一键职达，轻松优化求职材料，提升求职成功率。",
     image: {
       src: "/imgs/hero.png",
     },
@@ -55,13 +51,13 @@ export const page: Page = {
     text_align: "left",
     buttons: [
       {
-        title: "Start for free",
-        url: "https://pagen.so/landing-page-generator",
+        title: "开始免费试用",
+        url: "https://yijianzhi.com/start",
         target: "_blank",
       },
       {
-        title: "Vote on ProductHunt",
-        url: "https://www.producthunt.com/posts/pagen",
+        title: "了解更多",
+        url: "https://yijianzhi.com/features",
         target: "_blank",
         theme: "outline",
       },
@@ -73,9 +69,9 @@ export const page: Page = {
     items: [
       {
         name: "what",
-        title: "What is Pagen",
+        title: "什么是一键职达",
         description:
-          "Pagen is an AI landing page generator that simplifies the process of creating effective landing pages. With its intuitive interface and smart algorithms, you can generate pages that convert visitors into customers.",
+          "一键职达是一个助力求职的工具，专为求职者设计，提供AI优化证件照、AI优化简历和AI模拟面试三大功能，帮助你提升求职竞争力。",
         image: {
           src: "/imgs/section1.png",
         },
@@ -83,27 +79,27 @@ export const page: Page = {
         text_align: "center",
         items: [
           {
-            title: "Landing Page Generator",
+            title: "AI优化证件照",
             description:
-              "Pagen can help to generate landing page quickly from your idea",
+              "通过AI技术，快速生成专业的证件照，给招聘官留下深刻印象。",
           },
           {
-            title: "Page Content Generator",
+            title: "AI优化简历",
             description:
-              "Pagen can help to Generate high-quality page content with AI",
+              "智能分析简历内容，提供优化建议，帮助你展示最佳自我。",
           },
           {
-            title: "Variety Templates",
+            title: "AI模拟面试",
             description:
-              "Pagen has multiple built-in page templates to make landing page looks great",
+              "模拟真实面试场景，提供反馈和建议，提升你的面试表现。",
           },
         ],
       },
       {
         name: "why",
-        title: "Why Choose Pagen",
+        title: "为什么选择一键职达",
         description:
-          "Pagen stands out with its user-friendly design, powerful AI capabilities, and customizable templates that cater to various industries. It saves you time and enhances your marketing efforts.",
+          "一键职达以用户为中心，结合强大的AI技术，提供个性化服务，帮助求职者快速适应市场需求，提高求职成功率。",
         image: {
           src: "/imgs/section2.png",
         },
@@ -111,24 +107,24 @@ export const page: Page = {
         text_align: "center",
         items: [
           {
-            title: "Ship Fast",
-            description: "Create landing page in seconds",
+            title: "快速高效",
+            description: "在短时间内优化求职材料。",
           },
           {
-            title: "Easy to use",
-            description: "Just need a product name from your idea",
+            title: "智能分析",
+            description: "AI技术提供精准反馈，助你进步。",
           },
           {
-            title: "AI Powered",
-            description: "Generate high-quality page content with AI",
+            title: "全面支持",
+            description: "一站式求职工具，满足各类需求。",
           },
         ],
       },
       {
         name: "how",
-        title: "How to Use Pagen",
+        title: "如何使用一键职达",
         description:
-          "Getting started with Pagen is simple and quick. Follow these steps to create your first landing page:",
+          "使用一键职达非常简单，按照以下步骤即可开始你的求职之旅：",
         image: {
           src: "/imgs/section3.png",
         },
@@ -136,25 +132,25 @@ export const page: Page = {
         text_align: "center",
         items: [
           {
-            title: "1. Describe your Idea",
+            title: "1. 上传你的证件照",
             description:
-              "Give a product name and a simple description to Pagen Landing Page Genrator.",
+              "选择一张你的证件照，使用AI优化功能。",
           },
           {
-            title: "2. Choose a Template",
+            title: "2. 提交简历",
             description:
-              "Select from a variety of professionally designed templates that suit your needs.",
+              "上传你的简历，获取优化建议和修改意见。",
           },
           {
-            title: "3. Customize Your Page",
+            title: "3. 进行模拟面试",
             description:
-              "Use our AI tools to personalize your landing page with text, images, and branding.",
+              "通过AI模拟面试，提升你的面试技巧和自信心。",
           },
         ],
         buttons: [
           {
-            title: "Read to try 👉",
-            url: "https://pagen.so/landing-page-generator",
+            title: "立即体验 👉",
+            url: "https://yijianzhi.com/start",
             target: "_blank",
           },
         ],
@@ -162,206 +158,161 @@ export const page: Page = {
     ],
   },
   feature: {
-    title: "Key Features of Pagen",
+    title: "一键职达的核心功能",
     description:
-      "Explore the powerful features that make Pagen the best choice for landing page creation.",
+      "探索一键职达强大的功能，助力你的求职之路。",
     items: [
       {
-        title: "AI-Powered Design",
+        title: "AI证件照优化",
         description:
-          "Harness the power of AI to automatically generate beautiful and responsive landing page designs tailored to your brand and target audience.",
+          "让你的证件照更加专业，提升第一印象。",
         avatar: {
           src: "/imgs/icons/1.svg",
         },
       },
       {
-        title: "Customizable Templates",
+        title: "简历智能优化",
         description:
-          "Choose from a wide range of customizable templates that fit your brand's style and message.",
+          "提供针对性的建议，帮助你展示最佳自我。",
         avatar: {
           src: "/imgs/icons/2.svg",
         },
       },
       {
-        title: "SEO Optimization",
+        title: "模拟面试训练",
         description:
-          "Built-in SEO tools to help your landing pages rank higher in search engines and attract more visitors.",
+          "通过AI模拟真实面试场景，提升面试技巧。",
         avatar: {
           src: "/imgs/icons/3.svg",
         },
       },
       {
-        title: "Analytics Integration",
+        title: "个性化服务",
         description:
-          "Track the performance of your landing pages with integrated analytics tools to optimize your campaigns.",
+          "依据用户需求提供定制化的优化方案。",
         avatar: {
           src: "/imgs/icons/4.svg",
         },
       },
       {
-        title: "Mobile Responsiveness",
+        title: "用户友好界面",
         description:
-          "All landing pages created with Pagen are fully responsive, ensuring a seamless experience on any device.",
+          "简单易用，无需任何技术背景即可上手。",
         avatar: {
           src: "/imgs/icons/5.svg",
-        },
-      },
-      {
-        title: "User-Friendly Interface",
-        description:
-          "An intuitive drag-and-drop interface that makes it easy for anyone to create stunning landing pages without any coding skills.",
-        avatar: {
-          src: "/imgs/icons/6.svg",
         },
       },
     ],
   },
   cta: {
-    title: "Can't wait to use Pagen?",
-    description: "Just start from here, make your idea to be seen",
+    title: "准备好开启求职之旅了吗？",
+    description: "立即体验一键职达，助你迈向美好未来。",
     buttons: [
       {
-        title: "Try Now",
-        url: "https://pagen.so/landing-page-generator",
+        title: "立即体验",
+        url: "https://yijianzhi.com/start",
         target: "_blank",
       },
     ],
   },
   testimonial: {
-    title: "What Users Say About Pagen",
+    title: "用户对一键职达的评价",
     description:
-      "Hear from our satisfied users who have transformed their landing page creation process.",
+      "听听我们的用户如何评价一键职达，看看它如何改变了他们的求职体验。",
     items: [
       {
-        name: "Mike Jordan",
-        title: "Full-stack Developer",
+        name: "李明",
+        title: "求职者",
         description:
-          "I love this tool so much, it's awesome! Pagen has made my landing page creation process so much easier.",
+          "一键职达让我轻松优化了我的简历，面试表现也大大提升！",
         avatar: {
           src: "/imgs/user/1.png",
         },
       },
       {
-        name: "Sarah Lee",
-        title: "Marketing Manager",
+        name: "张伟",
+        title: "大学生",
         description:
-          "Pagen's AI technology is a game changer. I can create landing pages in minutes!",
+          "AI优化证件照让我在求职中更加自信，非常推荐！",
         avatar: {
           src: "/imgs/user/2.png",
         },
       },
       {
-        name: "Tom Smith",
-        title: "Entrepreneur",
+        name: "王芳",
+        title: "职场新人",
         description:
-          "The templates are beautiful and customizable. I highly recommend Pagen!",
+          "模拟面试功能帮助我在真实面试中表现得更加从容。",
         avatar: {
           src: "/imgs/user/3.png",
-        },
-      },
-      {
-        name: "Emily Davis",
-        title: "Content Creator",
-        description:
-          "Pagen has helped me increase my conversion rates significantly. It's a must-have tool!",
-        avatar: {
-          src: "/imgs/user/4.png",
-        },
-      },
-      {
-        name: "John Doe",
-        title: "Business Owner",
-        description:
-          "I was able to create a professional landing page without any design skills. Thank you, Pagen!",
-        avatar: {
-          src: "/imgs/user/5.png",
-        },
-      },
-      {
-        name: "Lisa White",
-        title: "Freelancer",
-        description:
-          "The user interface is so easy to navigate. I love using Pagen for my projects!",
-        avatar: {
-          src: "/imgs/user/6.png",
         },
       },
     ],
   },
   faq: {
-    title: "Frequently Asked Questions About Pagen",
-    description: "Find answers to common questions about using Pagen.",
+    title: "关于一键职达的常见问题",
+    description: "找到关于使用一键职达的常见问题及答案。",
     items: [
       {
-        title: "How many pages can I generate using Pagen?",
+        title: "一键职达提供哪些功能？",
         description:
-          "You can generate 3 pages as default, get more credits for page generation when you upgrade to Pro.",
+          "一键职达提供AI优化证件照、AI优化简历和AI模拟面试三大功能。",
       },
       {
-        title: "Is there a free trial available?",
+        title: "使用一键职达需要付费吗？",
         description:
-          "Yes, Pagen offers a free trial so you can explore its features before committing.",
+          "一键职达提供免费试用，部分功能可能需要付费解锁。",
       },
       {
-        title: "Can I integrate Pagen with other tools?",
+        title: "我需要具备什么技能才能使用一键职达？",
         description:
-          "Absolutely! Pagen integrates seamlessly with various marketing and analytics tools.",
+          "一键职达设计为用户友好，无需任何技术背景即可使用。",
       },
       {
-        title: "What types of businesses can benefit from Pagen?",
+        title: "一键职达如何保护我的隐私？",
         description:
-          "Pagen is perfect for marketers, startups, e-commerce businesses, and anyone looking to create effective landing pages.",
+          "我们重视用户隐私，所有数据均严格保密，不会外泄。",
       },
       {
-        title: "Do I need coding skills to use Pagen?",
+        title: "如何联系客服？",
         description:
-          "No coding skills are required! Pagen is designed for users of all skill levels.",
-      },
-      {
-        title: "What support options are available?",
-        description:
-          "Pagen offers customer support via email and a comprehensive knowledge base for self-help.",
+          "你可以通过邮件联系我们，或访问我们的帮助中心获取更多信息。",
       },
     ],
   },
   footer: {
     brand: {
-      title: "Pagen",
+      title: "一键职达",
       description:
-        "Pagen is a page generator powered by AI, it's designed to help businesses and marketers effortlessly create high-converting landing pages that drive results.",
+        "一键职达是一个助力求职的AI工具，旨在帮助用户提升求职竞争力，顺利找到理想工作。",
       avatar: {
         src: "/imgs/logo.png",
-        title: "Pagen",
+        title: "一键职达",
       },
-      url: "https://pagen.so",
+      url: "https://yijianzhi.com",
     },
     badge_disabled: false,
-    copyright: "© 2024 • Pagen All rights reserved.",
+    copyright: "© 2024 • 一键职达 保留所有权利。",
     social: {
       items: [
         {
-          title: "Twitter",
-          url: "https://x.com/aipagen",
+          title: "微博",
+          url: "https://weibo.com/yijianzhi",
           target: "_blank",
         },
         {
-          title: "ProductHunt",
-          url: "https://www.producthunt.com/posts/pagen",
+          title: "知乎",
+          url: "https://www.zhihu.com/yijianzhi",
           target: "_blank",
         },
         {
-          title: "Discord",
-          url: "https://discord.gg/ZUSutBR4Pv",
+          title: "微信",
+          url: "https://yijianzhi.com/wechat",
           target: "_blank",
         },
         {
-          title: "Telegram",
-          url: "https://t.me/+PCy10CEWOvA3Zjdl",
-          target: "_blank",
-        },
-        {
-          title: "Email",
-          url: "mailto:support@pagen.so",
+          title: "邮件",
+          url: "mailto:support@yijianzhi.com",
           target: "_self",
         },
       ],
@@ -369,44 +320,24 @@ export const page: Page = {
     nav: {
       items: [
         {
-          title: "Products",
+          title: "产品",
           children: [
             {
-              title: "Landing Page Generator",
-              url: "https://pagen.so/landing-page-generator",
+              title: "一键职达",
+              url: "https://yijianzhi.com",
               target: "_blank",
             },
           ],
         },
         {
-          title: "Friends",
+          title: "服务",
           children: [
             {
-              title: "ThinkAny",
-              url: "https://thinkany.ai",
-              target: "_blank",
-            },
-            {
-              title: "HeyBeauty",
-              url: "https://heybeauty.ai",
-              target: "_blank",
-            },
-            {
-              title: "GPTs Works",
-              url: "https://gpts.works",
-              target: "_blank",
-            },
-          ],
-        },
-        {
-          title: "Services",
-          children: [
-            {
-              title: "Privacy Policy",
+              title: "隐私政策",
               url: "/privacy-policy",
             },
             {
-              title: "Terms of Service",
+              title: "服务条款",
               url: "/terms-of-service",
             },
           ],
